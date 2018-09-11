@@ -7,7 +7,7 @@ install.packages("devtools")
 devtools::install_github("usplos/DPEEM")
 ```
 
-## Usage Example
+## Usage
 ```
 library(DPEEM)
 funGUI()
