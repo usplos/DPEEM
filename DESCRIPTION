@@ -1,0 +1,10 @@
+Package: DPEEM
+Type: Package
+Title: A R package for eye movement analysis
+LazyLoad: yes
+Version: 1.0
+Date: 2018-09-09
+Author: Zhang Guangyao
+Maintainer: Zhang Guangyao <zhangguangyao@psych.ac.cn>
+Description: A R toolbox for data 'pipeline' preprocess and extract of eye movement
+License: GPL (>=2)
