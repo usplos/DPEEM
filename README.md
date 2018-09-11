@@ -1,7 +1,7 @@
 # DPEEM
 This is a R toolbox of data 'pipeline' preprocess and extract for eye movements. 
 ## Installation
-You can install it by command 
+You can install it by 
 ```
 install.packages("devtools")
 devtools::install_github("usplos/DPEEM")
@@ -12,4 +12,4 @@ devtools::install_github("usplos/DPEEM")
 library(DPEEM)
 funGUI()
 ```
-This will generate a GUI for easy operation by mouse clicks.
+This will generate a GUI for easy operations by mouse clicks.
