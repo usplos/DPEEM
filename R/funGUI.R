@@ -1,6 +1,8 @@
 funGUI <-
 function()
 {
+  if(sum(unique(installed.packages()[,c('Package')] %in% 'tools')) == 0)
+  {install.packages('tools')}
   if(sum(unique(installed.packages()[,c('Package')] %in% 'fgui')) == 0)
   {install.packages('fgui')}
   library(fgui)
