@@ -45,8 +45,8 @@ function(workdir = getwd(),
     for(i in outputdir)
     {
       funpreprocess(workdir, outputdir = i, FDMax = FDMax, FDMin = FDMin, ROIfilename = ROIfilename1[which(outputdir %in% i)])
-      funROIRpt(i)
-      funROIRptReg(i)
+      #funROIRpt(i)
+      #funROIRptReg(i)
     }
   }
   checkpreprocess = dir(pattern = 'FTtotalASRptReg.csv')
