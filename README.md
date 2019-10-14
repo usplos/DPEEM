@@ -12,11 +12,6 @@ devtools::install_github("usplos/DPEEM")
 library(DPEEM)
 funGUI()
 ```
-OR
-```
-library(RCurl)
-eval(parse(text = getURL('https://raw.githubusercontent.com/usplos/self-programming/master/DPEEMfunAll.R')))
-```
 
 This will generate a GUI for easy operations by mouse clicks.
 
