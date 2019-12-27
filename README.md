@@ -14,3 +14,10 @@ funGUI()
 ```
 
 This will generate a GUI for easy operations.
+
+## Update
+The latest version can be download through running this command in R/RStudio:
+
+```
+source('https://raw.githubusercontent.com/usplos/customfunctions/master/DPEEMfunAll.R')
+```
