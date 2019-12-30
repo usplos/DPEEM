@@ -1,5 +1,5 @@
 # DPEEM
-This is a R package of data 'pipeline' preprocess and extract for eye movements. 
+This is a R package of data 'pipeline' preprocessing and extracting for eye movements. 
 ## Installation
 You can install it by 
 ```
@@ -15,9 +15,5 @@ funGUI()
 
 This will generate a GUI for easy operations.
 
-## Update
-The latest version can be download through running this command in R/RStudio:
-
-```
-source('https://raw.githubusercontent.com/usplos/customfunctions/master/DPEEMfunAll.R')
-```
+## Citation
+Zhang, G. (2019). DPEEM: Data 'pipeline' Preprocessing and Extracting for Eye Movements. Available at: https://github.com/usplos/DPEEM
