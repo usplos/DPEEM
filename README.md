@@ -22,7 +22,7 @@ This will generate a GUI for easy operations.
 ## Citation
 
 ### In text
-(Zhang, Li, & Lin, 2019)
+(Zhang et al., 2019)
 
 ### In refernce
 Zhang, G., Li, X., & Lin, N. (2019). *DPEEM: Data 'pipeline' Preprocessing and Extracting for Eye Movements*. Available at: https://github.com/usplos/DPEEM
