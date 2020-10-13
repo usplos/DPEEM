@@ -1,5 +1,5 @@
 # DPEEM
-This is a R package of data 'pipeline' preprocessing and extracting for eye movements. 
+This is a R package of data 'pipeline' preprocessing and measures extracting for eye movements. 
 ## Installation
 You can install it by 
 ```
