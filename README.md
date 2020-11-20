@@ -28,4 +28,5 @@ funGUI()
 
 This will generate a GUI for easy operations.
 
-
+## Notion
+The User Manual (in Chinese) can be downloaded [here](https://github.com/usplos/customfunctions/blob/master/DPEEM%20%E8%BD%AF%E4%BB%B6%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf).
