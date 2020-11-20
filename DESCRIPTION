@@ -1,7 +1,7 @@
 Package: DPEEM
 Type: Package
 Title: A R package for eye movement analysis
-Version: 0.1.0
+Version: 0.2.1
 Authors@R: c(
   person("Guangyao", "Zhang", email="zhanggunagyao@psych.ac.cn", role=c("aut", "cre"))
   )
@@ -11,6 +11,10 @@ Description: A R toolbox for data 'pipeline' preprocess and extract of eye movem
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Depends:R (>= 3.5.3),
-        fgui
-Imports:fgui
+Depends: R (>= 3.6.1),
+         rio,
+         tidyverse,
+Imports: tidyverse,
+         rio,
+         fgui,
+         tools
