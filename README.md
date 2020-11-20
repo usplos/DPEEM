@@ -8,7 +8,7 @@ devtools::install_github("usplos/DPEEM")
 ```
 You can also install it in this way:
 ```
-source('https://raw.githubusercontent.com/usplos/customfunctions/master/DPEEMfunAll.R')
+source('https://github.com/usplos/customfunctions/raw/master/DPEEMfunALL.R')
 ```
 
 ## Usage
