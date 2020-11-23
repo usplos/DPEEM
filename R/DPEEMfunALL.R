@@ -761,7 +761,7 @@ funSkipRate <- function(outputdir)
     mutate(Sub = sub0,
            Cond = cond0,
            Item = item0,
-           skiprate = ifelse(ffd0Mean > 0, 1,0)) %>%
+           skiprate = ifelse(ffd0Mean > 0, 0,1)) %>%
     .[c('Sub','Cond','Item','skiprate')] %>%
     write_csv('ROISkipRate.csv')
   cat('Skip Rate is done!!!\n\n')
