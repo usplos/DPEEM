@@ -1,4 +1,5 @@
 rm(list = ls())
+
 ###### package check
 PackageCheck = function(Name)
 {
@@ -992,3 +993,8 @@ funGUI <-
               #argEdit = list(FDMax = NULL, FDMin = NULL),
               title = 'DPEEM')
   }
+
+
+cat('please cite: \n')
+cat('Zhang, G., Li, X., & Lin, N. (2020). YawMMF: Effective Mixed Model Functions. Available at: https://github.com/usplos/YawMMF.\n')
+
