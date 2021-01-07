@@ -993,6 +993,6 @@ funGUI <-
               #argEdit = list(FDMax = NULL, FDMin = NULL),
               title = 'DPEEM')
     cat('please cite: \n')
-cat('Zhang, G., Li, X., & Lin, N. (2019). DPEEM: Data 'pipeline' Preprocessing and Extracting for Eye Movements. Available at: https://github.com/usplos/DPEEM\n')
+cat('Zhang, G., Li, X., & Lin, N. (2019). DPEEM: Data \'pipeline\' Preprocessing and Extracting for Eye Movements. Available at: https://github.com/usplos/DPEEM\n')
   }
 
