@@ -978,11 +978,14 @@ funIntegrate <-
 funGUI <-
   function()
   {
+    
     if(sum(unique(installed.packages()[,c('Package')] %in% 'tools')) == 0)
     {install.packages('tools')}
     if(sum(unique(installed.packages()[,c('Package')] %in% 'fgui')) == 0)
     {install.packages('fgui')}
     library(fgui)
+    cat('please cite: \n')
+cat('Zhang, G., Li, X., & Lin, N. (2019). DPEEM: Data \'pipeline\' Preprocessing and Extracting for Eye Movements. Available at: https://github.com/usplos/DPEEM\n')
     res = gui(funIntegrate,
               argOption = list(DA1_to_csv = c('T','F'), preprocess = c('T','F'), TTFFD = c('T','F'),
                                FTnum = c('T','F'), GazeDuration = c('T','F'),
@@ -992,7 +995,6 @@ funGUI <-
                                DataIntegrate = c('T','F')),
               #argEdit = list(FDMax = NULL, FDMin = NULL),
               title = 'DPEEM')
-    cat('please cite: \n')
-cat('Zhang, G., Li, X., & Lin, N. (2019). DPEEM: Data \'pipeline\' Preprocessing and Extracting for Eye Movements. Available at: https://github.com/usplos/DPEEM\n')
+    
   }
 
